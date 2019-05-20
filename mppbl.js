@@ -1,4 +1,4 @@
-//MPPBL Alpha v1.0(Multiplayer Piano Bot Library Alpha v1.0) By: ๖ۣۜTehc
+//MPPBL Alpha v1.2(Multiplayer Piano Bot Library Alpha v1.2) By: ๖ۣۜTehc
 	///Variables
 	//* If you want to include a prefix, bot_name, or any variable in a string(prefix, bot_name, room_id, or any text surrounded in either ``, '', or "" with a var [Variable Name] = '[Text]' before the variable), type ${[Variable Name]} where you want to put the variable. Don't forget to change [Variable Name] in ${[Variable Name]} to the name of the variable you want to include!*//
 	let prefix = `[Prefix]`;
@@ -28,11 +28,12 @@
 		MPP.chat.receive({a: msg, p: {name: username, id: id, _id: _id, color: hexColor}});
 	};
 	//* createCommand('name', function(){/*Code*/}) Creates a new command with the given name and function. *//
-	const createCommand = function(name, func) {
+	const createCommand = function(cmd, func) {
 		setTimeout(() => {
-			commands[name] = {
-				name: name,
-				run: func
+			commands[cmd.name] = {
+				name: cmd.name,
+				run: func,
+				desc: cmd.desc || cmd.name
 			};
 		}, 500);
 	};
@@ -45,30 +46,4 @@
 			}
 		});
 	});
-
-	//Bot Code
-
-	///Connect To Room
-	//* This conects to the desired room. *//
-	//setRoom(room_id);
-
-	///Set Name
-	//* This sets the bot's name to the text specified in the bot_name variable. *//
-	//setName(bot_name);
-
-	//Create Command
-	//* This will create a command called "hi" that'll say "Hello World!". *//
-	/*createCommand('hi', function() {
-		sendMsg('Hello World!');
-	});*/
-
-
-
-
-
-
-
-
-
-	
 //***********************************************//
