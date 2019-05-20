@@ -1,4 +1,4 @@
-# MPPBL Alpha v1.0
+# MPPBL Alpha v1.1
 ## <a href="https://github.com/TehcJS/MPPBL/blob/master/mppbl.js">Copy And Paste This Into Your Javascript Console</a>
 ### A Multiplayer Piano Bot Library.
 #### *Note*: The library is not complete yet so there will be many missing features. The library will be completed when MPPBL 1.0 is released.<br>
