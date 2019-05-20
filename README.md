@@ -3,6 +3,13 @@
 ### A Multiplayer Piano Bot Library.
 #### *Note*: The library is not complete yet so there will be many missing features. The library will be completed when MPPBL 1.0 is released.<br>
 ***
+# Tutorial
+## First:
+### Copy and paste <a href="https://raw.githubusercontent.com/TehcJS/MPPBL/master/copypaste.js">this</a> into your javascript console
+## Second:
+### Use <a href="https://raw.githubusercontent.com/TehcJS/MPPBL/master/example.js">this</a> example script to help.
+## Third:
+### Copy and paste the example code or bot code that you wish to use into the javascript console.<br>
 # Quick Documentation
 ***
 ## Variables
