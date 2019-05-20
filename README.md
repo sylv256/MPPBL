@@ -6,7 +6,7 @@
 ## First:
 ### Copy and paste <a href="https://raw.githubusercontent.com/TehcJS/MPPBL/master/copypaste.js">this</a> into your javascript console
 ## Second:
-### Copy and paste the example code or bot code that you wish to use into the javascript console(Use <a href="https://raw.githubusercontent.com/TehcJS/MPPBL/master/example.js">this</a> example script to help make a bot).
+### Copy and paste the example code or bot code that you wish to use into the javascript console(Use <a href="https://raw.githubusercontent.com/TehcJS/MPPBL/master/example.js">this</a> example script to help make bot code, then insert it into your javascript console).
 # Quick Documentation
 ***
 ## Variables
