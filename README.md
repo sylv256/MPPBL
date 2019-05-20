@@ -3,6 +3,9 @@
 ***
 # Quick Documentation
 ***
+## Variables
+### You can change the "room_name", "bot_name", or "prefix" variable in the beginning of the code to whatever string you'd like.
+***
 ## createCommand('command_name', function(args, user) { /* Command Code */ /* Example: */ MPP.chat.send("Hello World!"); });
 ### Creates a new command with the given name and function(DO NOT PUT SPACES IN THE COMMAND NAME)
 ***
