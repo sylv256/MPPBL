@@ -1,4 +1,4 @@
-//MPPBL Alpha v1.2(Multiplayer Piano Bot Library Alpha v1.2) By: ๖ۣۜTehc
+//MPPBL Alpha v1.2.1(Multiplayer Piano Bot Library Alpha v1.2.1) By: ๖ۣۜTehc
 	///Variables
 	//* If you want to include a prefix, bot_name, or any variable in a string(prefix, bot_name, room_id, or any text surrounded in either ``, '', or "" with a var [Variable Name] = '[Text]' before the variable), type ${[Variable Name]} where you want to put the variable. Don't forget to change [Variable Name] in ${[Variable Name]} to the name of the variable you want to include!*//
 	let prefix = `[Prefix]`;
@@ -42,7 +42,7 @@
 	MPP.client.on('a', (msg) => {
 		Object.keys(commands).forEach((cmd, i) => {
 			if (msg.a.toLowerCase().startsWith(prefix.toLowerCase()+cmd.toLowerCase())) {
-				commands[cmd].run(msg.a.split(' ').splice(-1, 1).join(' '), msg.p);
+				commands[cmd].run(msg.a.split(' ').splice(1, msg.a.split(' ').length).join(' '), msg.p);
 			}
 		});
 	});
