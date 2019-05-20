@@ -12,7 +12,7 @@
 ## Variables
 ### You can change the "room_name", "bot_name", or "prefix" variable in the beginning of the code to whatever string you'd like.
 ***
-## createCommand({ name: 'command_name'(optional), description(or desc; optional): 'command_description' }, function(args, user) { /* Command Code */ /* Example: */ MPP.chat.send(`Hello ${user.name}!`); });
+## createCommand({ name: 'command_name'(optional), description(or desc; optional): 'command_description' }, function(args, user) { /* Command Code */ /* Example: */ MPP.chat.send(\`Hello ${user.name}!\`); });
 ### Creates a new command with the given name and function(DO NOT PUT SPACES IN THE COMMAND NAME).
 ### *Note*: Do not use the command name as the first argument in createdCommand(/*First Argument*/), as that is now deprecated. Use the object shown above.
 #### The args argument is the part of the message after the command(e.g. The args of "$test testing 123" would be "123 testing").
